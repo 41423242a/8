@@ -10,7 +10,7 @@ bg_image = ImageBackground(image_url=bg_image_path)
 presentation.add_slide(
     content="""#第8組報告
 
-- 成員:6、7、12、13、19、42""", background=bg_image)
+*成員:6、7、12、13、19、42""", background=bg_image)
 presentation.add_slide(title="什麼是 Git？",content=""" - 分散式版本控制系統 - 可追蹤檔案變化 - 協作工具""", background=bg_image)
 presentation.add_slide("""如何使用 Git？
 1. git init 建立版本庫
