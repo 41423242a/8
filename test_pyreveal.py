@@ -7,11 +7,8 @@ presentation = PyReveal(title="My Presentation", theme="white", transition="slid
 bg_image = ImageBackground(image_url=bg_image_path)
 
 # 加入幻燈片
-presentation.add_slide("第8組報告", background=bg_image)
-presentation.add_slide("""什麼是 Git？
-- 分散式版本控制系統
-- 可追蹤檔案變化
-- 協作工具
+presentation.add_slide("title=第8組報告", background=bg_image)
+presentation.add_slide("""title=什麼是 Git？"分散式版本控制系統""可追蹤檔案變化""協作工具
 """, background=bg_image)
 
 presentation.add_slide("""如何使用 Git？
